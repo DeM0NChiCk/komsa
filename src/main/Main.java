@@ -5,6 +5,9 @@ import text_case.Bear;
 import text_case.DoInterface;
 import text_case.Fish;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Queue;
 
 public class Main {
@@ -22,5 +25,20 @@ public class Main {
         System.out.println(doIntImpl.vois());
         System.out.println(animal.run());
         System.out.println(animal.eat2());
+
+        int x = 5;
+        int y = 10;
+        if (x < 10 || ++y > 10) {
+            // блок выполнится
+        }
+        System.out.println(y);
+
+        int score = 75;
+        String result = (score >= 60) ? "Сдано" : "Не сдано";
+        System.out.println(result);
+
+
     }
+
+
 }
